@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/bookapi")
-@CrossOrigin(origins = "http://localhost:5174") // frontend
+@CrossOrigin(origins = "*") // frontend
 public class BookController {
 
     @Autowired
